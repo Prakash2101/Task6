@@ -10,7 +10,7 @@ password = 'prakash.s@123'
 send_to_email = 'rajpurohitprakash04@gmail.com'
 subject = '!!! Testing Server Report !!!'
 message = "Web-Server is not running, debug the code and please find the log file in attachment."
-file_location = "/dev_task6/job_log/log.txt"
+file_location = "/workspace/log.txt"
 
 msg = MIMEMultipart()
 msg['From'] = email
