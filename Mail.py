@@ -4,13 +4,22 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 import os.path
+
 email = 'taskmessage.21@gmail.com'
 password = 'prakash.s@123'
 send_to_email = 'rajpurohitprakash04@gmail.com'
 subject = '!!! Testing Server Report !!!'
-message = "Server is not working,please debug the code"
+message = "Web-Server is not running, debug the code."
 
 msg = MIMEMultipart()
+msg['From'] = email
+msg['To'] = send_to_email
+msg['Subject'] = subject
+
+msg.attach(MIMEText(message, 'plain'))
+
+
+
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
