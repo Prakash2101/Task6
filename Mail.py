@@ -5,9 +5,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os.path
 
-email = 'taskmessage.21@gmail.com'
-password = 'prakash.s@123'
-send_to_email = 'rajpurohitprakash04@gmail.com'
+email = 'taskmessage@gmail.com'
+password = 'password'
+send_to_email = 'rajpurohitprakaash@gmail.com'
 subject = '!!! Testing Server Report !!!'
 message = "Web-Server is not running, debug the code."
 
