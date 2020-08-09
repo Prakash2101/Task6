@@ -63,7 +63,7 @@ spec:
     spec:
       containers:
       - name: php-container
-        image: vimal13/apache-web-server
+        image: vimal13/apache-webserver-php
         volumeMounts:
         - name: phplogs
           mountPath: /var/log/httpd/
