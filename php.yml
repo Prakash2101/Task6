@@ -68,7 +68,7 @@ spec:
         - name: phplogs
           mountPath: /var/log/httpd/
         - name: phpstorage
-          mountPath: /var/www/php/
+          mountPath: /var/www/html/
       volumes:
       - name: phplogs
         persistentVolumeClaim:
